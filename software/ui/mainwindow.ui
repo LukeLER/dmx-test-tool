@@ -108,7 +108,7 @@
    </palette>
   </property>
   <property name="cursor">
-   <cursorShape>BlankCursor</cursorShape>
+   <cursorShape>ArrowCursor</cursorShape>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
@@ -166,9 +166,9 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>60</y>
+      <y>150</y>
       <width>481</width>
-      <height>741</height>
+      <height>651</height>
      </rect>
     </property>
     <property name="rowCount">
@@ -703,6 +703,24 @@
       <string>Slider</string>
      </property>
     </column>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>481</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLCDNumber" name="lcd_channel_2"/>
+     </item>
+     <item>
+      <widget class="QLCDNumber" name="lcd_channel"/>
+     </item>
+    </layout>
    </widget>
   </widget>
  </widget>

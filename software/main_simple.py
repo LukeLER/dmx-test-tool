@@ -74,7 +74,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                                      self.qtcb_ipcon_connected.emit)
 
         self.dmx = BrickletDMX(UID_DMX, self.ipcon)
-        self.label_image.setText("Connected!")
+        self.label_image.setText("Started!")
 
         #Configs
         self.wait_for_first_read = True
